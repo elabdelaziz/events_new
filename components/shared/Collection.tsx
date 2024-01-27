@@ -23,6 +23,9 @@ const Collection = ({
   collectionType,
   urlParamName,
 }: CollectionProps) => {
+
+  console.log(data);
+  console.log("trigger");
   return (
     <>
       {data.length > 0 ? (
